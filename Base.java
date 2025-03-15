@@ -16,7 +16,7 @@ public class Base {
 		cp.Checkout(driver);
 		CheckoutPage bp=new CheckoutPage();
 		bp.Billingdetails(driver);
-		driver.quit();
+		//driver.quit();
 		
 		
 	}
